@@ -15,6 +15,8 @@ import SelfLearning.packages.ProductPage;
 
 public class FrameWork extends TestBase{
 
+	
+	//Jenkins
 		
 		@Test(dataProvider = "getData", groups = {"Purchase"})
 		public void testOrderSubmission(HashMap<String, String> input) throws InterruptedException {
